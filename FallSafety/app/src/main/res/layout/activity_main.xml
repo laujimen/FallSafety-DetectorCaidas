@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_color">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="40dp"
+                android:paddingEnd="40dp"
+                android:paddingStart="40dp">
+
+                <ImageButton
+                    android:id="@+id/btnadvice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/ic_warning_black_24dp"/>
+
+
+                <TextView
+                    android:id="@+id/textEstado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:text="@string/estadoOff"
+                    android:textColor="@color/colorBlack"
+                    android:gravity="center"
+                    android:textSize="30sp" />
+
+
+                <Switch
+                    android:id="@+id/btnswitch"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX="3"
+                    android:scaleY="3"
+                    style="@style/SwitchCompatTheme"
+                    android:onClick="clickSwitch"/>
+
+
+                <Button
+                    android:id="@+id/btnContactos"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:alpha="0.9"
+                    android:background="@drawable/backbtn"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:textStyle="bold"
+                    android:textSize="35sp"
+                    android:onClick="Contact"
+                    android:text="@string/contactos" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Welcome to Fall Safety</string>
+    <string name="noContactos">There is no contact added. Please add one before activating the service</string>
+    <string name="estadoOn">Fall Safety is activated</string>
+    <string name="estadoOff">Fall Safety is disabled</string>
+    <string name="activar">Turn ON</string>
+    <string name="contactos">Contacts</string>
+    <string name="addContact">Add new contact</string>
+
+    <string name="editContact">Edit Contact</string>
+    <string name="postFallDetected">Fall Detected</string>
+    <string name="emergency">Emergency</string>
+
+    <string name="editNombre">Ingrese el nombre del contacto</string>
+    <string name="editNumero">Ingrese el número de teléfono</string>
+    <string name="editPrioridad">Ingrese la prioridad de contacto</string>
+
+    <string name="guardar">SAVE</string>
+    <string name="borrar">DELETE</string>
+
+    <string name="textCaida"> A fall has been detected. If you are well please press the button. Emergency contact will be called in 20 seconds</string>
+    <string name="emergencia1">EMERGENCY DETECTED</string>
+    <string name="emergencia2">Your emergency contacts have been notified</string>
+    <string name="smsCaida">FALL DETECTED IN: </string>
+    <string name="smsEmergencia">A EMERGENCY HAS BEEN REPORTED IN: </string>
+</resources>

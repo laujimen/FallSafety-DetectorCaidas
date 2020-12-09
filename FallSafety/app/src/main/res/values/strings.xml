@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">FallSafety</string>
+
+    <string name="welcome"> Bienvenidos a Fall Safety</string>
+
+    <string name="noContactos">No hay ningún contacto añadido. Por favor añada uno antes de activar el servicio</string>
+
+    <string name="estadoOn"> Fall Safety está activado</string>
+    <string name="estadoOff"> Fall Safety está desactivado</string>
+
+    <string name="activar">Activar</string>
+    <string name="contactos">Contactos</string>
+    <string name="addContact">Añadir nuevo contacto</string>
+
+    <string name="editContact">Editar Contacto</string>
+    <string name="postFallDetected">Caída detectada</string>
+    <string name="emergency">Emergencia</string>
+
+
+    <string name="editNombre">Ingrese el nombre del contacto</string>
+    <string name="editNumero">Ingrese el número de teléfono</string>
+    <string name="editPrioridad">Ingrese la prioridad de contacto</string>
+
+    <string name="guardar">GUARDAR</string>
+    <string name="borrar">BORRAR</string>
+
+    <string name="textCaida">Se ha detectado una caída. Si se encuentra bien presione el botón. En 20 segundos se llamará al contacto de emergencia</string>
+
+    <string name="emergencia1">EMERGENCIA DETECTADA</string>
+    <string name="emergencia2">Sus contactos de emergencia han sido notificados</string>
+    <string name="smsCaida">SE HA DETECTADO UNA CAÍDA EN: </string>
+    <string name="smsEmergencia">SE HA REPORTADO UNA EMERGENCIA EN: </string>
+
+</resources>
