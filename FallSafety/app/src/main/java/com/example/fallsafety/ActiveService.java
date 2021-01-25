@@ -155,50 +155,12 @@ public class ActiveService extends Service implements SensorEventListener, TextT
 
                 double sum = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2) + Math.pow(z, 2));
                 double acel = sum / SensorManager.GRAVITY_EARTH;
+                
+                /*
+                INCLUIR ALGORITMO DE DETECCIÓN
+                */
 
 
-                if (acel <= 1.0) {
-                    min = true;
-
-                }
-
-                if (min) {
-
-                    if (medX == 0.0) {
-                        medX = x;
-                        medZ = z;
-                        medY = y;
-                    } else {
-                        medX = (medX + x) / 2;
-                        medY = (medY + y) / 2;
-                        medZ = (medZ + z) / 2;
-                    }
-
-                    if (acel >= 3.0) {
-                        max = true;
-                        if (medX < 1 && medY < 1 && medZ > 9) {
-                            vertical = true;
-                        }
-
-                    }
-                }
-
-
-
-                if (min && max && vertical) {
-                    /* En este caso se ha detectado una caida*/
-                    fallDetected();
-
-                    totalX = 0;
-                    totalY = 0;
-                    totalZ = 0;
-                    medX = 0;
-                    medY = 0;
-                    medZ = 0;
-                    min = false;
-                    max = false;
-                    vertical = false;
-                }
             }
         }
     }
